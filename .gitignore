@@ -1,0 +1,11 @@
+# Ignore everything
+*
+
+# But keep markdown files
+!*.md
+
+# Keep this .gitignore file itself
+!.gitignore
+
+
+
