@@ -1,0 +1,14 @@
+2025-06-26 18:04:08,960 INFO scheduler Scheduled Job Start: frappe.monitor.flush for dev_site
+2025-06-26 18:04:09,105 INFO scheduler Scheduled Job Complete: frappe.monitor.flush for dev_site
+2025-06-26 18:04:09,165 INFO scheduler Scheduled Job Start: frappe.utils.global_search.sync_global_search for dev_site
+2025-06-26 18:04:09,294 INFO scheduler Scheduled Job Complete: frappe.utils.global_search.sync_global_search for dev_site
+2025-06-26 18:04:09,356 INFO scheduler Scheduled Job Start: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for dev_site
+2025-06-26 18:04:09,581 INFO scheduler Scheduled Job Complete: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for dev_site
+2025-06-26 18:04:09,643 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.notify_unreplied for dev_site
+2025-06-26 18:04:09,830 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.notify_unreplied for dev_site
+2025-06-26 18:04:09,892 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.pull for dev_site
+2025-06-26 18:04:10,095 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.pull for dev_site
+2025-06-26 18:04:10,156 INFO scheduler Scheduled Job Start: frappe.email.queue.flush for dev_site
+2025-06-26 18:04:10,299 INFO scheduler Scheduled Job Complete: frappe.email.queue.flush for dev_site
+2025-06-26 18:05:08,302 INFO scheduler Scheduled Job Start: erpnext.manufacturing.doctype.bom_update_log.bom_update_log.resume_bom_cost_update_jobs for dev_site
+2025-06-26 18:05:08,524 INFO scheduler Scheduled Job Complete: erpnext.manufacturing.doctype.bom_update_log.bom_update_log.resume_bom_cost_update_jobs for dev_site

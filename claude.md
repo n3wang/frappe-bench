@@ -5,3 +5,4 @@
 - For documentation on the frappe app and improve FRAPPE_APP_DEVELOPMENT_GUIDE.md as you develop and explore features to produce more accurate documentation.
 For documentation
 - For documentation on the ERPNext app, refer to ERPNEXT_DEVELOPMENT_GUIDE.md as I request features, doucmnets new learnings on that file.
+- store all actions and results in issues/ folder as markdown files.

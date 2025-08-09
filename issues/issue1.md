@@ -162,29 +162,29 @@ ERPNext Item Availability Error Analysis & Solution
   bench --site [your-site] console
 
   # Then execute:
-  import frappe
-  from erpnext.stock.utils import get_or_make_bin
+import frappe
+from erpnext.stock.utils import get_or_make_bin
 
-  item_code = "02e62bb6-7a4f-42fe-8bfe-79eece3a6491"
-  warehouse = "Stores - L"
+item_code = "02e62bb6-7a4f-42fe-8bfe-79eece3a6491"
+warehouse = "Stores - L"
 
-  # Create bin if doesn't exist
-  bin_name = get_or_make_bin(item_code, warehouse)
-  print(f"Bin created/exists: {bin_name}")
+# Create bin if doesn't exist
+bin_name = get_or_make_bin(item_code, warehouse)
+print(f"Bin created/exists: {bin_name}")
 
-  # Create stock entry to add quantity
-  stock_entry = frappe.new_doc("Stock Entry")
-  stock_entry.stock_entry_type = "Material Receipt"
-  stock_entry.company = frappe.defaults.get_user_default("Company")
-  stock_entry.append("items", {
-      "item_code": item_code,
-      "t_warehouse": warehouse,
-      "qty": 100,  # Set desired quantity
-      "basic_rate": 10  # Set cost per unit
-  })
-  stock_entry.save()
-  stock_entry.submit()
-  print(f"Stock Entry {stock_entry.name} created successfully")
+# Create stock entry to add quantity
+stock_entry = frappe.new_doc("Stock Entry")
+stock_entry.stock_entry_type = "Material Receipt"
+stock_entry.company = frappe.defaults.get_user_default("Company")
+stock_entry.append("items", {
+    "item_code": item_code,
+    "t_warehouse": warehouse,
+    "qty": 100,  # Set desired quantity
+    "basic_rate": 10  # Set cost per unit
+})
+stock_entry.save()
+stock_entry.submit()
+print(f"Stock Entry {stock_entry.name} created successfully")
 
   ---
   📊 Prevention Strategies

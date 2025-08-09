@@ -1,0 +1,2 @@
+2025-06-26 23:00:06,497 INFO scheduler Scheduled Job Start: erpnext.hr.doctype.shift_type.shift_type.process_auto_attendance_for_all_shifts for dev_site
+2025-06-26 23:00:06,848 INFO scheduler Scheduled Job Complete: erpnext.hr.doctype.shift_type.shift_type.process_auto_attendance_for_all_shifts for dev_site
